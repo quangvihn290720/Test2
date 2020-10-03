@@ -16,6 +16,9 @@ public class HelloWorldController {
 		ModelAndView mv = new ModelAndView("helloworld");
 		mv.addObject("message", message);
 		mv.addObject("name", name);
+		
+		System.out.println("asdasdasdsds");
+		
 		return mv;
 	}
 }
